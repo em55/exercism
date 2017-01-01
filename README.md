@@ -2,9 +2,13 @@
 >
 
 Completed:
->hello-world
->etl
->word-count
+>hello-world   <br/>
+
+>etl   <br/>
+
+
+>word-count   <br/>  
+
 
 Unattempted:
 >everything else
