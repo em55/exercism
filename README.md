@@ -3,9 +3,8 @@
 
 Completed:
 >hello-world
-
-Incomplete:
 >etl
+>word-count
 
 Unattempted:
 >everything else
