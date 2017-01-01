@@ -5,10 +5,10 @@ public class WordCount {
   public Map<String, Integer> phrase(String words) {
     Map<String, Integer> wordCount = new HashMap<>();
 
-    String[] wordSet = words.replaceAll("^[,\\s]+", "").split("[,\\s]+");
+    String[] wordSet = words.replaceAll("^[,:!@$%^&\\s]+", "").split("[,:!@$%^&\\s]+");
 
     for (String word : wordSet){
-      word = word.replace("[^a-zA-Z]", "").toLowerCase();
+      word = word.toLowerCase();
       wordCount.put(word, !wordCount.containsKey(word) ? 1 : wordCount.get(word) + 1);
     }
 
